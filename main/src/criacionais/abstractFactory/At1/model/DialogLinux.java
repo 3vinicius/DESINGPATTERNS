@@ -1,0 +1,10 @@
+package criacionais.abstractFactory.At1.model;
+
+import criacionais.abstractFactory.At1.interfaces.Dialog;
+
+public class DialogLinux implements Dialog {
+    @Override
+    public String show() {
+        return "Dialog Linux";
+    }
+}
